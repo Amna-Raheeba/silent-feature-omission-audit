@@ -1,0 +1,72 @@
+{
+  "dgp_params": {
+    "main_coefs": {
+      "main_a": 1.2,
+      "main_b": 0.9,
+      "main_c": -0.8
+    },
+    "interaction_coef": 1.7,
+    "subgroup_coef": 1.5,
+    "subgroup_rate": 0.35,
+    "noise_sd": 0.8,
+    "copy_noise_sd": 0.1
+  },
+  "usage_by_redundancy": {
+    "0": {
+      "main_a": "main",
+      "main_b": "main",
+      "main_c": "main",
+      "int_a": "interaction_only",
+      "int_b": "interaction_only",
+      "sub_feat": "subgroup_only",
+      "noise_a": "unused",
+      "noise_b": "unused",
+      "noise_c": "unused",
+      "noise_d": "unused",
+      "noise_e": "unused"
+    },
+    "1": {
+      "main_a": "main",
+      "main_b": "main",
+      "main_c": "main",
+      "int_a": "interaction_only",
+      "int_b": "interaction_only",
+      "sub_feat": "subgroup_only",
+      "noise_a": "unused",
+      "noise_b": "unused",
+      "noise_c": "unused",
+      "noise_d": "unused",
+      "noise_e": "unused",
+      "copy_1": "redundant_copy"
+    },
+    "2": {
+      "main_a": "main",
+      "main_b": "main",
+      "main_c": "main",
+      "int_a": "interaction_only",
+      "int_b": "interaction_only",
+      "sub_feat": "subgroup_only",
+      "noise_a": "unused",
+      "noise_b": "unused",
+      "noise_c": "unused",
+      "noise_d": "unused",
+      "noise_e": "unused",
+      "copy_1": "redundant_copy",
+      "copy_2": "redundant_copy"
+    }
+  },
+  "stored_datasets": {
+    "data/dataset_r1.json": {
+      "seed": 101,
+      "redundancy": 1,
+      "n_train": 800,
+      "n_test": 400
+    },
+    "examples/demo_dataset.json": {
+      "seed": 7,
+      "redundancy": 1,
+      "n_train": 240,
+      "n_test": 120
+    }
+  }
+}
