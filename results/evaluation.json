@@ -1,0 +1,644 @@
+{
+  "config": {
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "redundancy_levels": [
+      0,
+      1,
+      2
+    ],
+    "n_train": 1000,
+    "n_test": 500
+  },
+  "rows": [
+    {
+      "redundancy": 0,
+      "explainer": "permutation",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 0,
+      "explainer": "permutation",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 0,
+      "explainer": "permutation",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 0,
+      "explainer": "permutation",
+      "usage_type": "all_used",
+      "omission_rate": 0.1
+    },
+    {
+      "redundancy": 0,
+      "explainer": "loco",
+      "usage_type": "main",
+      "omission_rate": 0.066667
+    },
+    {
+      "redundancy": 0,
+      "explainer": "loco",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 0,
+      "explainer": "loco",
+      "usage_type": "subgroup_only",
+      "omission_rate": 1.0
+    },
+    {
+      "redundancy": 0,
+      "explainer": "loco",
+      "usage_type": "all_used",
+      "omission_rate": 0.266667
+    },
+    {
+      "redundancy": 0,
+      "explainer": "shapley",
+      "usage_type": "main",
+      "omission_rate": 0.133333
+    },
+    {
+      "redundancy": 0,
+      "explainer": "shapley",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.1
+    },
+    {
+      "redundancy": 0,
+      "explainer": "shapley",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 0,
+      "explainer": "shapley",
+      "usage_type": "all_used",
+      "omission_rate": 0.133333
+    },
+    {
+      "redundancy": 0,
+      "explainer": "surrogate",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 0,
+      "explainer": "surrogate",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.5
+    },
+    {
+      "redundancy": 0,
+      "explainer": "surrogate",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 0,
+      "explainer": "surrogate",
+      "usage_type": "all_used",
+      "omission_rate": 0.166667
+    },
+    {
+      "redundancy": 0,
+      "explainer": "random",
+      "usage_type": "main",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 0,
+      "explainer": "random",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.6
+    },
+    {
+      "redundancy": 0,
+      "explainer": "random",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.8
+    },
+    {
+      "redundancy": 0,
+      "explainer": "random",
+      "usage_type": "all_used",
+      "omission_rate": 0.533333
+    },
+    {
+      "redundancy": 1,
+      "explainer": "permutation",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 1,
+      "explainer": "permutation",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.3
+    },
+    {
+      "redundancy": 1,
+      "explainer": "permutation",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.6
+    },
+    {
+      "redundancy": 1,
+      "explainer": "permutation",
+      "usage_type": "all_used",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 1,
+      "explainer": "loco",
+      "usage_type": "main",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 1,
+      "explainer": "loco",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.1
+    },
+    {
+      "redundancy": 1,
+      "explainer": "loco",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.8
+    },
+    {
+      "redundancy": 1,
+      "explainer": "loco",
+      "usage_type": "all_used",
+      "omission_rate": 0.366667
+    },
+    {
+      "redundancy": 1,
+      "explainer": "shapley",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 1,
+      "explainer": "shapley",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.5
+    },
+    {
+      "redundancy": 1,
+      "explainer": "shapley",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 1,
+      "explainer": "shapley",
+      "usage_type": "all_used",
+      "omission_rate": 0.233333
+    },
+    {
+      "redundancy": 1,
+      "explainer": "surrogate",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 1,
+      "explainer": "surrogate",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.8
+    },
+    {
+      "redundancy": 1,
+      "explainer": "surrogate",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 1,
+      "explainer": "surrogate",
+      "usage_type": "all_used",
+      "omission_rate": 0.266667
+    },
+    {
+      "redundancy": 1,
+      "explainer": "random",
+      "usage_type": "main",
+      "omission_rate": 0.466667
+    },
+    {
+      "redundancy": 1,
+      "explainer": "random",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.7
+    },
+    {
+      "redundancy": 1,
+      "explainer": "random",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.8
+    },
+    {
+      "redundancy": 1,
+      "explainer": "random",
+      "usage_type": "all_used",
+      "omission_rate": 0.6
+    },
+    {
+      "redundancy": 2,
+      "explainer": "permutation",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 2,
+      "explainer": "permutation",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.9
+    },
+    {
+      "redundancy": 2,
+      "explainer": "permutation",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 2,
+      "explainer": "permutation",
+      "usage_type": "all_used",
+      "omission_rate": 0.366667
+    },
+    {
+      "redundancy": 2,
+      "explainer": "loco",
+      "usage_type": "main",
+      "omission_rate": 0.666667
+    },
+    {
+      "redundancy": 2,
+      "explainer": "loco",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.2
+    },
+    {
+      "redundancy": 2,
+      "explainer": "loco",
+      "usage_type": "subgroup_only",
+      "omission_rate": 1.0
+    },
+    {
+      "redundancy": 2,
+      "explainer": "loco",
+      "usage_type": "all_used",
+      "omission_rate": 0.566667
+    },
+    {
+      "redundancy": 2,
+      "explainer": "shapley",
+      "usage_type": "main",
+      "omission_rate": 0.066667
+    },
+    {
+      "redundancy": 2,
+      "explainer": "shapley",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.9
+    },
+    {
+      "redundancy": 2,
+      "explainer": "shapley",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 2,
+      "explainer": "shapley",
+      "usage_type": "all_used",
+      "omission_rate": 0.4
+    },
+    {
+      "redundancy": 2,
+      "explainer": "surrogate",
+      "usage_type": "main",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 2,
+      "explainer": "surrogate",
+      "usage_type": "interaction_only",
+      "omission_rate": 1.0
+    },
+    {
+      "redundancy": 2,
+      "explainer": "surrogate",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.0
+    },
+    {
+      "redundancy": 2,
+      "explainer": "surrogate",
+      "usage_type": "all_used",
+      "omission_rate": 0.333333
+    },
+    {
+      "redundancy": 2,
+      "explainer": "random",
+      "usage_type": "main",
+      "omission_rate": 0.466667
+    },
+    {
+      "redundancy": 2,
+      "explainer": "random",
+      "usage_type": "interaction_only",
+      "omission_rate": 0.7
+    },
+    {
+      "redundancy": 2,
+      "explainer": "random",
+      "usage_type": "subgroup_only",
+      "omission_rate": 0.8
+    },
+    {
+      "redundancy": 2,
+      "explainer": "random",
+      "usage_type": "all_used",
+      "omission_rate": 0.6
+    }
+  ],
+  "cells": {
+    "0|permutation": {
+      "omission_rate": 0.1,
+      "commission_rate": 0.1,
+      "copy_slots": 0.0,
+      "noise_slots": 0.6,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.2,
+        "subgroup_only": 0.2
+      }
+    },
+    "0|loco": {
+      "omission_rate": 0.26666666666666666,
+      "commission_rate": 0.26666666666666666,
+      "copy_slots": 0.0,
+      "noise_slots": 1.6,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.06666666666666667,
+        "interaction_only": 0.2,
+        "subgroup_only": 1.0
+      }
+    },
+    "0|shapley": {
+      "omission_rate": 0.13333333333333333,
+      "commission_rate": 0.13333333333333333,
+      "copy_slots": 0.0,
+      "noise_slots": 0.8,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.13333333333333333,
+        "interaction_only": 0.1,
+        "subgroup_only": 0.2
+      }
+    },
+    "0|surrogate": {
+      "omission_rate": 0.16666666666666666,
+      "commission_rate": 0.16666666666666666,
+      "copy_slots": 0.0,
+      "noise_slots": 1.0,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.5,
+        "subgroup_only": 0.0
+      }
+    },
+    "0|random": {
+      "omission_rate": 0.5333333333333333,
+      "commission_rate": 0.5333333333333333,
+      "copy_slots": 0.0,
+      "noise_slots": 3.2,
+      "source_omitted_rate": 0.2,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.4,
+        "interaction_only": 0.6,
+        "subgroup_only": 0.8
+      }
+    },
+    "1|permutation": {
+      "omission_rate": 0.2,
+      "commission_rate": 0.2,
+      "copy_slots": 1.0,
+      "noise_slots": 0.2,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.3,
+        "subgroup_only": 0.6
+      }
+    },
+    "1|loco": {
+      "omission_rate": 0.36666666666666664,
+      "commission_rate": 0.36666666666666664,
+      "copy_slots": 0.6,
+      "noise_slots": 1.6,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.2,
+      "per_type": {
+        "main": 0.4,
+        "interaction_only": 0.1,
+        "subgroup_only": 0.8
+      }
+    },
+    "1|shapley": {
+      "omission_rate": 0.2333333333333333,
+      "commission_rate": 0.2333333333333333,
+      "copy_slots": 1.0,
+      "noise_slots": 0.4,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.5,
+        "subgroup_only": 0.4
+      }
+    },
+    "1|surrogate": {
+      "omission_rate": 0.26666666666666666,
+      "commission_rate": 0.26666666666666666,
+      "copy_slots": 1.0,
+      "noise_slots": 0.6,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.8,
+        "subgroup_only": 0.0
+      }
+    },
+    "1|random": {
+      "omission_rate": 0.6,
+      "commission_rate": 0.6,
+      "copy_slots": 0.6,
+      "noise_slots": 3.0,
+      "source_omitted_rate": 0.2,
+      "source_displaced_rate": 0.2,
+      "per_type": {
+        "main": 0.4666666666666666,
+        "interaction_only": 0.7,
+        "subgroup_only": 0.8
+      }
+    },
+    "2|permutation": {
+      "omission_rate": 0.36666666666666664,
+      "commission_rate": 0.36666666666666664,
+      "copy_slots": 1.8,
+      "noise_slots": 0.4,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 0.9,
+        "subgroup_only": 0.4
+      }
+    },
+    "2|loco": {
+      "omission_rate": 0.5666666666666667,
+      "commission_rate": 0.5666666666666667,
+      "copy_slots": 1.2,
+      "noise_slots": 2.2,
+      "source_omitted_rate": 0.4,
+      "source_displaced_rate": 0.6,
+      "per_type": {
+        "main": 0.6666666666666666,
+        "interaction_only": 0.2,
+        "subgroup_only": 1.0
+      }
+    },
+    "2|shapley": {
+      "omission_rate": 0.4,
+      "commission_rate": 0.4,
+      "copy_slots": 1.6,
+      "noise_slots": 0.8,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.2,
+      "per_type": {
+        "main": 0.06666666666666667,
+        "interaction_only": 0.9,
+        "subgroup_only": 0.4
+      }
+    },
+    "2|surrogate": {
+      "omission_rate": 0.3333333333333333,
+      "commission_rate": 0.3333333333333333,
+      "copy_slots": 2.0,
+      "noise_slots": 0.0,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.0,
+      "per_type": {
+        "main": 0.0,
+        "interaction_only": 1.0,
+        "subgroup_only": 0.0
+      }
+    },
+    "2|random": {
+      "omission_rate": 0.6,
+      "commission_rate": 0.6,
+      "copy_slots": 1.0,
+      "noise_slots": 2.6,
+      "source_omitted_rate": 0.0,
+      "source_displaced_rate": 0.4,
+      "per_type": {
+        "main": 0.4666666666666666,
+        "interaction_only": 0.7,
+        "subgroup_only": 0.8
+      }
+    }
+  },
+  "aggregates": {
+    "permutation_omission_r0": 0.1,
+    "permutation_interaction_omission_r0": 0.2,
+    "permutation_subgroup_omission_r0": 0.2,
+    "permutation_commission_r0": 0.1,
+    "permutation_omission_r1": 0.2,
+    "permutation_interaction_omission_r1": 0.3,
+    "permutation_subgroup_omission_r1": 0.6,
+    "permutation_commission_r1": 0.2,
+    "permutation_omission_r2": 0.366667,
+    "permutation_interaction_omission_r2": 0.9,
+    "permutation_subgroup_omission_r2": 0.4,
+    "permutation_commission_r2": 0.366667,
+    "permutation_interaction_growth": 0.7,
+    "loco_omission_r0": 0.266667,
+    "loco_interaction_omission_r0": 0.2,
+    "loco_subgroup_omission_r0": 1.0,
+    "loco_commission_r0": 0.266667,
+    "loco_omission_r1": 0.366667,
+    "loco_interaction_omission_r1": 0.1,
+    "loco_subgroup_omission_r1": 0.8,
+    "loco_commission_r1": 0.366667,
+    "loco_omission_r2": 0.566667,
+    "loco_interaction_omission_r2": 0.2,
+    "loco_subgroup_omission_r2": 1.0,
+    "loco_commission_r2": 0.566667,
+    "loco_interaction_growth": 0.0,
+    "shapley_omission_r0": 0.133333,
+    "shapley_interaction_omission_r0": 0.1,
+    "shapley_subgroup_omission_r0": 0.2,
+    "shapley_commission_r0": 0.133333,
+    "shapley_omission_r1": 0.233333,
+    "shapley_interaction_omission_r1": 0.5,
+    "shapley_subgroup_omission_r1": 0.4,
+    "shapley_commission_r1": 0.233333,
+    "shapley_omission_r2": 0.4,
+    "shapley_interaction_omission_r2": 0.9,
+    "shapley_subgroup_omission_r2": 0.4,
+    "shapley_commission_r2": 0.4,
+    "shapley_interaction_growth": 0.8,
+    "surrogate_omission_r0": 0.166667,
+    "surrogate_interaction_omission_r0": 0.5,
+    "surrogate_subgroup_omission_r0": 0.0,
+    "surrogate_commission_r0": 0.166667,
+    "surrogate_omission_r1": 0.266667,
+    "surrogate_interaction_omission_r1": 0.8,
+    "surrogate_subgroup_omission_r1": 0.0,
+    "surrogate_commission_r1": 0.266667,
+    "surrogate_omission_r2": 0.333333,
+    "surrogate_interaction_omission_r2": 1.0,
+    "surrogate_subgroup_omission_r2": 0.0,
+    "surrogate_commission_r2": 0.333333,
+    "surrogate_interaction_growth": 0.5,
+    "random_omission_r0": 0.533333,
+    "random_interaction_omission_r0": 0.6,
+    "random_subgroup_omission_r0": 0.8,
+    "random_commission_r0": 0.533333,
+    "random_omission_r1": 0.6,
+    "random_interaction_omission_r1": 0.7,
+    "random_subgroup_omission_r1": 0.8,
+    "random_commission_r1": 0.6,
+    "random_omission_r2": 0.6,
+    "random_interaction_omission_r2": 0.7,
+    "random_subgroup_omission_r2": 0.8,
+    "random_commission_r2": 0.6,
+    "random_interaction_growth": 0.1
+  }
+}
